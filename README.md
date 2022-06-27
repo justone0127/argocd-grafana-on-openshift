@@ -1,6 +1,6 @@
 # Custom Grafana Dashboards for ArgoCD Instance - OpenShift GitOps Operator
 
-커뮤니티 오퍼레이터는 기존 `openshift-monitoring` 네임스페이스에 배포할 수 없으므로 새로운 네임스페이스를 생성합니다. 예시에서는 ArgoCD 인스턴스가 생성된 `argocd-grafana` 네임스페이스를 사용하겠습니다.
+커뮤니티 오퍼레이터는 기존 `openshift-monitoring` 네임스페이스에 배포할 수 없으므로 새로운 네임스페이스를 생성합니다. 에서는 `argocd-grafana` 네임스페이스를 사용하겠습니다.
 
 
 ### 1. Deploying Custom Grafana
