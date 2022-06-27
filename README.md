@@ -7,23 +7,23 @@
 
 - OpenShift 콘솔 > OpeatorHub > Grafana 검색 > Grafana Operator 설치 
 
-  ![01_grafana_operator](C:\Works\01_자료\01_OCP\05_OCP_Demo_hyou\brown_bag_gitops\grafana-mon\01_grafana_operator.png)
+  ![01_grafana_operator](https://github.com/justone0127/argocd-grafana-on-openshift/blob/main/images/01_grafana_operator.png)
 
 - Grafana Operator를 선택하여 설치를 계속 진행합니다.
 
-  ![02_grafana_operator_install](C:\Works\01_자료\01_OCP\05_OCP_Demo_hyou\brown_bag_gitops\grafana-mon\02_grafana_operator_install.png)
+  ![02_grafana_operator_install](https://github.com/justone0127/argocd-grafana-on-openshift/blob/main/images/02_grafana_operator_install.png)
 
 - `Install` 버튼을 선택하여 설치를 계속 진행합니다.
 
-  ![03_grafana_operator_install_02](C:\Works\01_자료\01_OCP\05_OCP_Demo_hyou\brown_bag_gitops\grafana-mon\03_grafana_operator_install_02.png)
+  ![03_grafana_operator_install_02](https://github.com/justone0127/argocd-grafana-on-openshift/blob/main/images/03_grafana_operator_install_02.png)
 
 - Grafana Operator 설치가 완료되면, Grafana 인스턴스를 생성합니다. 가이드에서는 `argocd-grafana` 이름으로 인스턴스를 생성합니다.
 
-  ![04_argocd_instance](C:\Works\01_자료\01_OCP\05_OCP_Demo_hyou\brown_bag_gitops\grafana-mon\04_argocd_instance.png)
+  ![04_argocd_instance](https://github.com/justone0127/argocd-grafana-on-openshift/blob/main/images/04_argocd_instance.png)
 
 - 생성한 인스턴스의 상태를 확인합니다.
 
-  ![05_argocd_grafana_instance](C:\Works\01_자료\01_OCP\05_OCP_Demo_hyou\brown_bag_gitops\grafana-mon\05_argocd_grafana_instance.png)
+  ![05_argocd_grafana_instance](https://github.com/justone0127/argocd-grafana-on-openshift/blob/main/images/05_argocd_grafana_instance.png)
 
 ### 2. Connecting Prometheus to our Custom Grafana
 
@@ -81,7 +81,7 @@ $ oc serviceaccounts get-token grafana-serviceaccount -n argocd-grafana
 
 - 웹콘솔 생성 예시
 
-  ![06_argocd_grafana_datasource](C:\Works\01_자료\01_OCP\05_OCP_Demo_hyou\brown_bag_gitops\grafana-mon\06_argocd_grafana_datasource.png)
+  ![06_argocd_grafana_datasource](https://github.com/justone0127/argocd-grafana-on-openshift/blob/main/images/06_argocd_grafana_datasource.png)
 
 - Grafana Route 생성
 
@@ -127,7 +127,7 @@ $ oc serviceaccounts get-token grafana-serviceaccount -n argocd-grafana
 
 - Grafana Instance login
 
-  ![07_argocd_grafana_instance_login](C:\Works\01_자료\01_OCP\05_OCP_Demo_hyou\brown_bag_gitops\grafana-mon\07_argocd_grafana_instance_login.png)
+  ![07_argocd_grafana_instance_login](https://github.com/justone0127/argocd-grafana-on-openshift/blob/main/images/07_argocd_grafana_instance_login.png)
 
 
 
@@ -135,15 +135,15 @@ $ oc serviceaccounts get-token grafana-serviceaccount -n argocd-grafana
 
 - `+` > Create > Import 선택 > Dashboard ID 입력 (grafana.com에서 확인한)  > Load
 
-  ![08_argocd_grafana_dashboard_load](C:\Works\01_자료\01_OCP\05_OCP_Demo_hyou\brown_bag_gitops\grafana-mon\08_argocd_grafana_dashboard_load.png)
+  ![08_argocd_grafana_dashboard_load](https://github.com/justone0127/argocd-grafana-on-openshift/blob/main/images/08_argocd_grafana_dashboard_load.png)
 
 - Import 
 
-  ![09_argocd_grafana_dashboard_import](C:\Works\01_자료\01_OCP\05_OCP_Demo_hyou\brown_bag_gitops\grafana-mon\09_argocd_grafana_dashboard_import.png)
+  ![09_argocd_grafana_dashboard_import](https://github.com/justone0127/argocd-grafana-on-openshift/blob/main/images/09_argocd_grafana_dashboard_import.png)
 
 - Dashboard 확인
 
-  ![10_argocd_instance_dashboard](C:\Works\01_자료\01_OCP\05_OCP_Demo_hyou\brown_bag_gitops\grafana-mon\10_argocd_instance_dashboard.png)
+  ![10_argocd_instance_dashboard](https://github.com/justone0127/argocd-grafana-on-openshift/blob/main/images/10_argocd_instance_dashboard.png)
 
 
 
